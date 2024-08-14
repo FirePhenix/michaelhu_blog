@@ -30,6 +30,9 @@ languages:
         - name: Tags
           url: tags/
           weight: 10
+        - name: About me
+          url: about/
+          weight: 10
 
 
 
