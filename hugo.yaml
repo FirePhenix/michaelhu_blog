@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://michaelhu-blog.pages.dev
 languageCode: en-us
 title: Michael hu's Blog
 theme: PaperMod
@@ -57,4 +57,5 @@ params:
     - name: "Github"
       url: "https://github.com/FirePhenix"
     - name: "Linkedin"
-      url: "https://www.linkedin.com/in/michael-hu-99260441/"
+      url: "https://www.linkedin.com/in/michael-hu-99260441/
+
