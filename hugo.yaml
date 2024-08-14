@@ -40,19 +40,10 @@ params:
   showtoc: false
   tocopen: false
 
-  profileMode:
-    enabled: true
-    title: Michael hu's Blog
-    subtitle: ""
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+  homeInfoParams:
+    Title: Michael hu's Blog
+    Content: "Welcome to my blog, bienvenue"
+  
   socialIcons: # optional
     - name: "Github"
       url: "https://github.com/FirePhenix"
