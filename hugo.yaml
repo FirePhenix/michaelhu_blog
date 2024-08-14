@@ -24,14 +24,14 @@ languages:
       series: series
     menu:
       main:
+        - name: About me
+          url: about/
+          weight: 3
         - name: Archive
           url: archives
           weight: 5
         - name: Tags
           url: tags/
-          weight: 10
-        - name: About me
-          url: about/
           weight: 10
 
 
