@@ -1,0 +1,34 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Michael hu's Blog
+theme: PaperMod
+paginate: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  profileMode:
+    enabled: true
+    title: Michael hu's Blog
+    subtitle: ""
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+  socialIcons: # optional
+    - name: "Github"
+      url: "https://github.com/FirePhenix"
+    - name: "Linkedin"
+      url: "https://www.linkedin.com/in/michael-hu-99260441/"
