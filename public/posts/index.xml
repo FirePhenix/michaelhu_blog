@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Michael hu&#39;s Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Michael hu&#39;s Blog</description>
+    <image>
+      <title>Michael hu&#39;s Blog</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.132.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Aug 2024 15:08:18 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Let&#39;s talk about Go channel</title>
+      <link>http://localhost:1313/posts/lets_talk_about_go_channel/</link>
+      <pubDate>Fri, 16 Aug 2024 15:08:18 -0400</pubDate>
+      <guid>http://localhost:1313/posts/lets_talk_about_go_channel/</guid>
+      <description>learning Go Channel without pain</description>
+    </item>
+    <item>
+      <title>Hello</title>
+      <link>http://localhost:1313/posts/hello/</link>
+      <pubDate>Wed, 14 Aug 2024 14:50:39 -0400</pubDate>
+      <guid>http://localhost:1313/posts/hello/</guid>
+      <description>This is my blog</description>
+    </item>
+  </channel>
+</rss>
