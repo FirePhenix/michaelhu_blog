@@ -72,3 +72,6 @@ params:
       url: "https://github.com/FirePhenix"
     - name: "Linkedin"
       url: "https://www.linkedin.com/in/michael-hu-99260441/"
+services:
+  googleAnalytics:
+    ID: G-D4L0XC1YJN
