@@ -64,8 +64,8 @@ params:
   tocopen: false
 
   homeInfoParams:
-    Title: Michael hu's Blog
-    Content: "Welcome to my blog, bienvenue"
+    Title: 
+    Content: "Der Unterschied zwischen Vergangenheit, Gegenwart und Zukunft ist eine Illusion, wenn auch eine hartnäckige. - Albert Einstein."
   
   socialIcons: # optional
     - name: "Github"
