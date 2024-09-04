@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- 0.132.1</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Aug 2024 15:08:18 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2024 16:57:21 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Let&#39;s make your slice/map easier to maintain</title>
+      <link>http://localhost:1313/posts/letss_make_your_slice_and_map_easier_to_maintain/</link>
+      <pubDate>Wed, 28 Aug 2024 16:57:21 -0400</pubDate>
+      <guid>http://localhost:1313/posts/letss_make_your_slice_and_map_easier_to_maintain/</guid>
+      <description>You know I&amp;rsquo;m a Go/RoR develper, sometime, I need to developer some micro serice coopreate with RoR service. and most annoy thing is define a map like this:
+type Partner struct { Name string } func ListPartners() []Partner { return []Partner{ {Name: &amp;#34;partner1&amp;#34;}, {Name: &amp;#34;partner2&amp;#34;}, {Name: &amp;#34;partner3&amp;#34;}, {Name: &amp;#34;partner4&amp;#34;}, let&amp;rsquo;s say we need to get some of these name, so we need to do some changes for ListPartners(), add a filter conditions.</description>
+    </item>
     <item>
       <title>Let&#39;s talk about Go channel</title>
       <link>http://localhost:1313/posts/lets_talk_about_go_channel/</link>
