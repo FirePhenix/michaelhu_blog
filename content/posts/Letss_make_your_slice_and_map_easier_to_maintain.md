@@ -1,7 +1,7 @@
 +++
 title = "Let's make your slice/map easier to maintain"
 date = 2024-08-28T16:57:21-04:00
-draft = true
+draft = false
 tags = ["Go", "Dev"]
 ShowToc = true
 TocOpen = true
