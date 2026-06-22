@@ -2,38 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Michael hu&#39;s Blog</title>
-    <link>http://localhost:1313/</link>
+    <link>https://michaelhu-blog.pages.dev/</link>
     <description>Recent content on Michael hu&#39;s Blog</description>
     <image>
       <title>Michael hu&#39;s Blog</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://michaelhu-blog.pages.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://michaelhu-blog.pages.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.132.1</generator>
-    <language>en</language>
+    <generator>Hugo -- 0.163.3</generator>
+    <language>en-us</language>
     <lastBuildDate>Wed, 28 Aug 2024 16:57:21 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://michaelhu-blog.pages.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Let&#39;s make your slice/map easier to maintain</title>
-      <link>http://localhost:1313/posts/letss_make_your_slice_and_map_easier_to_maintain/</link>
+      <link>https://michaelhu-blog.pages.dev/posts/letss_make_your_slice_and_map_easier_to_maintain/</link>
       <pubDate>Wed, 28 Aug 2024 16:57:21 -0400</pubDate>
-      <guid>http://localhost:1313/posts/letss_make_your_slice_and_map_easier_to_maintain/</guid>
-      <description>Introduction As a Go and Ruby on Rails (RoR) developer, I often find myself building microservices that interact with RoR applications. One of the most annoying challenges is maintaining simple data structures like maps or slices, especially when they need to evolve. For example, let&amp;rsquo;s take a look at how we define a slice of Partner structs:
-type Partner struct { Name string } func ListPartners() []Partner { return []Partner{ {Name: &amp;#34;partner1&amp;#34;}, {Name: &amp;#34;partner2&amp;#34;}, {Name: &amp;#34;partner3&amp;#34;}, {Name: &amp;#34;partner4&amp;#34;}, } } At first glance, this looks fine.</description>
+      <guid>https://michaelhu-blog.pages.dev/posts/letss_make_your_slice_and_map_easier_to_maintain/</guid>
+      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;As a Go and Ruby on Rails (RoR) developer, I often find myself building microservices that interact with RoR applications. One of the most annoying challenges is maintaining simple data structures like maps or slices, especially when they need to evolve. For example, let&amp;rsquo;s take a look at how we define a slice of Partner structs:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Partner&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;ListPartners&lt;/span&gt;() []&lt;span style=&#34;color:#a6e22e&#34;&gt;Partner&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; []&lt;span style=&#34;color:#a6e22e&#34;&gt;Partner&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        {&lt;span style=&#34;color:#a6e22e&#34;&gt;Name&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;partner1&amp;#34;&lt;/span&gt;},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        {&lt;span style=&#34;color:#a6e22e&#34;&gt;Name&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;partner2&amp;#34;&lt;/span&gt;},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        {&lt;span style=&#34;color:#a6e22e&#34;&gt;Name&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;partner3&amp;#34;&lt;/span&gt;},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        {&lt;span style=&#34;color:#a6e22e&#34;&gt;Name&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;partner4&amp;#34;&lt;/span&gt;},
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;At first glance, this looks fine. But what happens when your PM asks you to return only some of these names based on certain conditions? You’ll need to modify ListPartners to filter by name. Here’s one possible solution:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Let&#39;s talk about Go channel</title>
-      <link>http://localhost:1313/posts/lets_talk_about_go_channel/</link>
+      <link>https://michaelhu-blog.pages.dev/posts/lets_talk_about_go_channel/</link>
       <pubDate>Fri, 16 Aug 2024 15:08:18 -0400</pubDate>
-      <guid>http://localhost:1313/posts/lets_talk_about_go_channel/</guid>
+      <guid>https://michaelhu-blog.pages.dev/posts/lets_talk_about_go_channel/</guid>
       <description>learning Go Channel without pain</description>
     </item>
     <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <title>About Me</title>
+      <link>https://michaelhu-blog.pages.dev/about/</link>
       <pubDate>Wed, 14 Aug 2024 16:11:39 -0400</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description></description>
+      <guid>https://michaelhu-blog.pages.dev/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m Michael Hu, a software developer who works mostly with Go and Ruby on Rails.&lt;/p&gt;
+&lt;p&gt;A lot of my day-to-day work sits in the space between Rails applications, Go services, APIs, data structures, and the small design choices that make code easier or harder to maintain over time. I like practical engineering: understanding why something works, where it can break, and how to make the next version a little cleaner.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

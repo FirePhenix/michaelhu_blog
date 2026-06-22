@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/dev/</loc>
+    <loc>https://michaelhu-blog.pages.dev/tags/dev/</loc>
     <lastmod>2024-08-28T16:57:21-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/go/</loc>
+    <loc>https://michaelhu-blog.pages.dev/tags/go/</loc>
     <lastmod>2024-08-28T16:57:21-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/letss_make_your_slice_and_map_easier_to_maintain/</loc>
+    <loc>https://michaelhu-blog.pages.dev/posts/letss_make_your_slice_and_map_easier_to_maintain/</loc>
     <lastmod>2024-08-28T16:57:21-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://michaelhu-blog.pages.dev/</loc>
     <lastmod>2024-08-28T16:57:21-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://michaelhu-blog.pages.dev/posts/</loc>
     <lastmod>2024-08-28T16:57:21-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://michaelhu-blog.pages.dev/tags/</loc>
     <lastmod>2024-08-28T16:57:21-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/lets_talk_about_go_channel/</loc>
+    <loc>https://michaelhu-blog.pages.dev/posts/lets_talk_about_go_channel/</loc>
     <lastmod>2024-08-16T15:08:18-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://michaelhu-blog.pages.dev/about/</loc>
     <lastmod>2024-08-14T16:11:39-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://michaelhu-blog.pages.dev/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://michaelhu-blog.pages.dev/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://michaelhu-blog.pages.dev/series/</loc>
   </url>
 </urlset>
