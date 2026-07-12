@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- 0.163.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Aug 2024 16:57:21 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 00:00:00 -0400</lastBuildDate>
     <atom:link href="https://michaelhu-blog.pages.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://michaelhu-blog.pages.dev/tags/ai/</link>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 -0400</pubDate>
+      <guid>https://michaelhu-blog.pages.dev/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Life</title>
+      <link>https://michaelhu-blog.pages.dev/tags/life/</link>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 -0400</pubDate>
+      <guid>https://michaelhu-blog.pages.dev/tags/life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>https://michaelhu-blog.pages.dev/tags/machine-learning/</link>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 -0400</pubDate>
+      <guid>https://michaelhu-blog.pages.dev/tags/machine-learning/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Dev</title>
       <link>https://michaelhu-blog.pages.dev/tags/dev/</link>

@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://michaelhu-blog.pages.dev/tags/ai/</loc>
+    <lastmod>2026-07-12T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://michaelhu-blog.pages.dev/tags/life/</loc>
+    <lastmod>2026-07-12T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://michaelhu-blog.pages.dev/tags/machine-learning/</loc>
+    <lastmod>2026-07-12T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://michaelhu-blog.pages.dev/</loc>
+    <lastmod>2026-07-12T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://michaelhu-blog.pages.dev/posts/</loc>
+    <lastmod>2026-07-12T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://michaelhu-blog.pages.dev/tags/</loc>
+    <lastmod>2026-07-12T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://michaelhu-blog.pages.dev/posts/the_second_half/</loc>
+    <lastmod>2026-07-12T00:00:00-04:00</lastmod>
+  </url><url>
     <loc>https://michaelhu-blog.pages.dev/tags/dev/</loc>
     <lastmod>2024-08-28T16:57:21-04:00</lastmod>
   </url><url>
@@ -9,15 +30,6 @@
     <lastmod>2024-08-28T16:57:21-04:00</lastmod>
   </url><url>
     <loc>https://michaelhu-blog.pages.dev/posts/letss_make_your_slice_and_map_easier_to_maintain/</loc>
-    <lastmod>2024-08-28T16:57:21-04:00</lastmod>
-  </url><url>
-    <loc>https://michaelhu-blog.pages.dev/</loc>
-    <lastmod>2024-08-28T16:57:21-04:00</lastmod>
-  </url><url>
-    <loc>https://michaelhu-blog.pages.dev/posts/</loc>
-    <lastmod>2024-08-28T16:57:21-04:00</lastmod>
-  </url><url>
-    <loc>https://michaelhu-blog.pages.dev/tags/</loc>
     <lastmod>2024-08-28T16:57:21-04:00</lastmod>
   </url><url>
     <loc>https://michaelhu-blog.pages.dev/posts/lets_talk_about_go_channel/</loc>

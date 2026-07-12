@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.163.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Aug 2024 16:57:21 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 00:00:00 -0400</lastBuildDate>
     <atom:link href="https://michaelhu-blog.pages.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Second Half</title>
+      <link>https://michaelhu-blog.pages.dev/posts/the_second_half/</link>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 -0400</pubDate>
+      <guid>https://michaelhu-blog.pages.dev/posts/the_second_half/</guid>
+      <description>Pushing 40, starting over with machine learning, and chasing that old spark.</description>
+    </item>
     <item>
       <title>Let&#39;s make your slice/map easier to maintain</title>
       <link>https://michaelhu-blog.pages.dev/posts/letss_make_your_slice_and_map_easier_to_maintain/</link>
@@ -48,8 +55,8 @@
       <link>https://michaelhu-blog.pages.dev/about/</link>
       <pubDate>Wed, 14 Aug 2024 16:11:39 -0400</pubDate>
       <guid>https://michaelhu-blog.pages.dev/about/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m Michael Hu, a software developer who works mostly with Go and Ruby on Rails.&lt;/p&gt;
-&lt;p&gt;A lot of my day-to-day work sits in the space between Rails applications, Go services, APIs, data structures, and the small design choices that make code easier or harder to maintain over time. I like practical engineering: understanding why something works, where it can break, and how to make the next version a little cleaner.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m Michael Hu, a software developer with years spent mostly in Go and Ruby on Rails. These days I&amp;rsquo;m pushing 40 and starting over in a way that feels strangely familiar—systematically learning machine learning and large models, and chasing that same spark I had when I first got into building things.&lt;/p&gt;
+&lt;p&gt;For a long time my day-to-day sat in the space between Rails applications, Go services, APIs, data structures, and the small design choices that make code easier or harder to maintain over time. I still care about practical engineering: understanding why something works, where it can break, and how to make the next version a little cleaner. But my curiosity has moved—toward figuring out how these models actually work under the hood.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
